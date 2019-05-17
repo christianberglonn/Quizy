@@ -24,7 +24,7 @@ class Game extends Component {
 
 
         const correctBonus = 10;
-        const maxQuestions = 3;
+        const maxQuestions = 10;
 
         function startGame() {
             questionCounter = 0;

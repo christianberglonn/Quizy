@@ -4,22 +4,11 @@ import { Button } from 'reactstrap';
 import '../../App.css';
 
 
-/* 
-    AVSNITT 8
-    3:55
-    LÖS HURFAN SCORE/NAME SKA KUNNA PUSHAS IN I EN ARRAY.
-    KOLLA VIDEO LOL
-    https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9
-    */
-
 let highScores;
 let saveScoreBtn;
 let finalScore;
 let mostRecentScore;
 let username;
-
-//const maxHighScores = 5;
-
 
 
 class End extends Component {
@@ -53,8 +42,6 @@ class End extends Component {
 
 
     saveHighscore() {
-        console.log('Clicked as fuck');
-        //e.preventDefault();
 
         const score = {
             score: mostRecentScore,
